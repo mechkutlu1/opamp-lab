@@ -35,15 +35,6 @@ Every graph is computed from the actual circuit behaviour, and the models were c
 - the **Schmitt** trip points are `±Vsat·R₁/(R₁+R₂)`;
 - the **amplifier** Bode plots use a finite gain–bandwidth model, so you can watch bandwidth shrink as gain rises (gain ×10 → ~91 kHz, gain ×100 → ~9.9 kHz for a 1 MHz GBW part).
 
-## Deploy to GitHub Pages
-
-1. Create a repository (e.g. `analoglab`) and upload all files in this folder to the root.
-2. **Settings → Pages → Build and deployment → Source: Deploy from a branch**, pick `main` / `/root`, save.
-3. Open `https://<your-user>.github.io/analoglab/`. Add to home screen to install; it then runs fully offline.
-
-Files: `index.html`, `app.js`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `icon-maskable-512.png`.
-
-> If you change `app.js`, bump the `CACHE` name in `sw.js` (e.g. `analoglab-v2`) so installed devices pull the update.
 
 ## Tech
 
