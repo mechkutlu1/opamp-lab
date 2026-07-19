@@ -1,0 +1,17 @@
+{
+  "name": "AnalogLab — Op-Amps & Analog Electronics",
+  "short_name": "AnalogLab",
+  "description": "Interactive op-amp and analog electronics lab: live schematics, oscilloscope, transfer curves and Bode plots.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
